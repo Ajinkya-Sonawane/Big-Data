@@ -1,4 +1,6 @@
-# Perform the following steps to run the Map Reduce Operations using Hadoop Map Reduce Streaming:
+# Map Reduce using Hadoop (HDFS)
+
+## Perform the following steps to run the Map Reduce Operations using Hadoop Map Reduce Streaming:
 
 - First Map Reduce Operation: Generate Uni-grams, Bi-grams and Tri-grams and Count Frequency of each N-gram
 
@@ -11,3 +13,7 @@
 - Third Map Reduce (Extra Credit: Find trigram with highest probability containing the string "united states")
 
 `mapred streaming --files mapper3.py,reducer3.py -mapper "python mapper3.py" -reducer "python reducer3.py" -input <2_MAPREDUCE_OUTPUT_HDFS> -output <3_MAPREDUCE_OUTPUT_HDFS>`
+
+###  Final Output
+
+<img alt="image" src="https://user-images.githubusercontent.com/21151348/155624349-567f6184-799c-4c16-b249-7c15de66e86c.png">
